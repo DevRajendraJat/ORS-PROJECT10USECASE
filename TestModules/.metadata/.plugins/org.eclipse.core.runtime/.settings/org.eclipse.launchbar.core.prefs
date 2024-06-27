@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=aarch64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:projectORS,org.eclipse.launchbar.core.descriptorType.default\:projectORS (1),org.eclipse.launchbar.core.descriptorType.default\:projectORS (2),org.eclipse.launchbar.core.descriptorType.default\:ProjectOrsApplication
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:ProjectOrsApplication/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:ProjectOrsApplication/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:projectORS/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:projectORS/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

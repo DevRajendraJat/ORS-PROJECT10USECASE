@@ -1,0 +1,6 @@
+ #Ignore node.js directory
+node_modules
+
+#Ignore the angular production
+
+#Ignore environment files often

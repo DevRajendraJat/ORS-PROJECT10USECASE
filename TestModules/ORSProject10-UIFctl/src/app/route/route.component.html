@@ -1,0 +1,122 @@
+<app-navbar></app-navbar>
+
+<style>
+  .grad {
+    background-image: linear-gradient(to bottom right, rgb(32, 168, 168), rgb(219, 231, 237));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 25px;
+  }
+
+  .background {
+    padding-top: 3%;
+    padding-bottom: 13%;
+    background: url('assets/files/wall.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .required-field {
+    color: red;
+  }
+
+  .alertRedColor {
+    color: red;
+  }
+</style>
+
+<div class="container-fluid background">
+  <div class="row justify-content-center">
+    <div class="col-sm-8 col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-body shadow-lg grad">
+          <form>
+            <h2 *ngIf="!form.data.id > 0" class="text-primary font-weight-bold">{{'Add Route' | translate}}</h2>
+            <h2 *ngIf="form.data.id > 0" class="text-primary font-weight-bold">{{'Update Route' | translate}}</h2>
+
+            
+ <!-- Success and Error Messages -->
+ <div *ngIf="!form.error && form.message" class="alert alert-success alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  {{ form.message }}
+</div>
+
+<div *ngIf="form.error && form.message" class="alert alert-danger alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  {{ form.message }}
+</div>
+
+<!-- Route Name Input -->
+<div class="form-group">
+  <label><b>{{ 'Name' | translate }}</b><span class="required-field">*</span></label>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text"><i class="fa fa-envelope grey-text"></i></div>
+    </div>
+    <input type="text" name="Name" [(ngModel)]="form.data.name" class="form-control"
+      placeholder="{{ 'Enter Name' | translate }}">
+  </div>
+  <span *ngIf="form.inputerror.name" class="alertRedColor">{{ form.inputerror.name }}</span>
+</div>
+
+<!-- Route Start Date Input -->
+<div class="form-group">
+  <label><b>{{ 'Start Date' | translate }}</b><span class="required-field">*</span></label>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text"><i class="fa fa-calendar grey-text"></i></div>
+    </div>
+    <input type="date" name="StartDate" [value]="form.data.startDate | date:'yyyy-MM-dd'"
+      (input)="form.data.startDate = parseDate($event.target.value)" class="form-control" required />
+  </div>
+  <span *ngIf="form.inputerror.startDate" class="alertRedColor">{{ form.inputerror.startDate }}</span>
+</div>
+
+<!-- Allow Speed Checkbox -->
+
+
+
+<div class="form-group">
+  <label><b>{{ 'Allow Speed' | translate }}</b><span class="required-field">*</span></label>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text"><i class="fa fa-car grey-text"></i></div>
+    </div>
+    <input type="text" name="allowSpeed" [(ngModel)]="form.data.allowSpeed" class="form-control"
+      placeholder="{{ 'Enter allow Speed' | translate }}">
+  </div>
+  <span *ngIf="form.inputerror.allowSpeed" class="alertRedColor">{{ form.inputerror.allowSpeed }}</span>
+</div>
+
+<div class="form-group">
+  <label><b>{{ 'Vehicle ID' | translate }}</b><span class="required-field">*</span></label>
+
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text"><i class="fa fa-user grey-text"></i> </div>
+    </div>
+    <select class="form-control" name="decease" [(ngModel)]="form.data.vehicleId"
+      aria-label="ngSelected">
+      <option [ngValue]="" value="undefined">{{' Select vehicleId' | translate }}</option>
+      <option *ngFor="let obj of form.preload.Rlist" [value]="obj.value">{{obj.value}}</option>
+    </select>
+  </div>
+</div>
+<span *ngIf="form.inputerror.vehicleId != null" class="alertRedColor" style=" color: red;">
+  {{form.inputerror.vehicleId}} </span>
+
+            <div class="form-group text-center">
+              <button *ngIf="!form.data.id > 0" (click)="submit()" [disabled]="!validate()" class="btn btn-success mr-2">{{'Save' | translate}}</button>
+              <button *ngIf="form.data.id > 0" (click)="submit()" class="btn btn-success mr-2">{{'Update' | translate}}</button>
+              <button (click)="forward('/routelist')" type="button" class="btn btn-warning">{{'List' | translate}}</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

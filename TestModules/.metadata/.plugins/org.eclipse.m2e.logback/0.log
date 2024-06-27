@@ -1,0 +1,810 @@
+2024-06-18 16:56:17,188 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-18 16:56:44,697 [Worker-24: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunilos:springboottest:0.0.1-SNAPSHOT @ /Users/raj/Desktop/TestModules/projectORS/pom.xml.
+2024-06-18 16:56:45,345 [Worker-24: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /projectORS/src/main/java
+2024-06-18 16:56:45,345 [Worker-24: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectORS/src/main/resources
+2024-06-18 16:56:45,345 [Worker-24: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectORS/src/main/resources
+2024-06-18 16:56:45,345 [Worker-24: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /projectORS/src/test/java
+2024-06-18 16:56:45,345 [Worker-24: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectORS/src/test/resources
+2024-06-18 16:56:45,404 [Worker-24: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2024-06-18 16:56:46,635 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-18 16:56:46,636 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-18 16:56:46,642 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-18 16:56:46,645 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-18 16:56:46,645 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-18 16:57:13,115 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-18 16:57:13,116 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-18 16:57:13,118 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-18 16:57:13,120 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-18 16:57:13,120 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-18 16:58:54,078 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-06-18 16:59:04,734 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755 [619])
+2024-06-18 16:59:04,735 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aether-connector-okhttp-0.17.8.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aopalliance-1.0.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/commons-lang3-3.12.0.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/guice-5.1.0.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/jansi-2.4.0.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-artifact-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-builder-support-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-compat-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-core-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-embedder-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-builder-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-plugin-api-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-repository-metadata-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-api-1.9.14.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-connector-basic-1.9.14.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-impl-1.9.14.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-named-locks-1.9.14.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-provider-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-spi-1.9.14.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-transport-wagon-1.9.14.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-util-1.9.14.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-builder-3.9.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-shared-utils-3.3.4.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okhttp-3.14.1.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okio-1.17.3.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.inject-0.3.5.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.plexus-0.3.5.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-build-api-0.0.7.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-cipher-2.0.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-classworlds-2.7.0.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-component-annotations-2.1.0.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-interpolation-1.26.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-sec-dispatcher-2.0.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-utils-3.5.1.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-file-3.5.3.jar
+2024-06-18 16:59:04,736 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-provider-api-3.5.3.jar
+2024-06-18 16:59:04,737 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [987])
+2024-06-18 16:59:04,737 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava_32.1.3.jre.jar
+2024-06-18 16:59:04,737 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.9 [1139])
+2024-06-18 16:59:04,738 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/slf4j.api_2.0.9.jar
+2024-06-18 16:59:04,738 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [38])
+2024-06-18 16:59:04,738 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.inject_1.0.0.v20220405-0441.jar
+2024-06-18 16:59:04,738 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [995])
+2024-06-18 16:59:04,738 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.annotation_1.3.5.v20230504-0748.jar
+2024-06-18 16:59:04,738 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [73])
+2024-06-18 16:59:04,738 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.commons.cli_1.5.0.jar
+2024-06-18 16:59:04,738 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [988])
+2024-06-18 16:59:04,738 [Worker-17: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava.failureaccess_1.0.2.jar
+2024-06-18 16:59:04,739 [Worker-17: Launching projectORS] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/raj/Desktop/TestModules/projectORS":
+2024-06-18 16:59:04,741 [Worker-17: Launching projectORS] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean package
+2024-06-19 11:11:46,877 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-19 11:11:56,980 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755 [619])
+2024-06-19 11:11:56,982 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755
+2024-06-19 11:11:56,982 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aether-connector-okhttp-0.17.8.jar
+2024-06-19 11:11:56,982 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aopalliance-1.0.jar
+2024-06-19 11:11:56,982 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/commons-lang3-3.12.0.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/guice-5.1.0.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/jansi-2.4.0.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-artifact-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-builder-support-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-compat-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-core-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-embedder-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-builder-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-plugin-api-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-repository-metadata-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-api-1.9.14.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-connector-basic-1.9.14.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-impl-1.9.14.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-named-locks-1.9.14.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-provider-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-spi-1.9.14.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-transport-wagon-1.9.14.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-util-1.9.14.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-builder-3.9.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-shared-utils-3.3.4.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okhttp-3.14.1.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okio-1.17.3.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.inject-0.3.5.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.plexus-0.3.5.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-build-api-0.0.7.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-cipher-2.0.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-classworlds-2.7.0.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-component-annotations-2.1.0.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-interpolation-1.26.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-sec-dispatcher-2.0.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-utils-3.5.1.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-file-3.5.3.jar
+2024-06-19 11:11:56,983 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-provider-api-3.5.3.jar
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [987])
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava_32.1.3.jre.jar
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.9 [1139])
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/slf4j.api_2.0.9.jar
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [38])
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.inject_1.0.0.v20220405-0441.jar
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [995])
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.annotation_1.3.5.v20230504-0748.jar
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [73])
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.commons.cli_1.5.0.jar
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [988])
+2024-06-19 11:11:56,984 [Worker-20: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava.failureaccess_1.0.2.jar
+2024-06-19 11:11:56,986 [Worker-20: Launching projectORS] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/raj/Desktop/TestModules/projectORS":
+2024-06-19 11:11:56,988 [Worker-20: Launching projectORS] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean package
+2024-06-19 11:12:01,040 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755 [619])
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aether-connector-okhttp-0.17.8.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aopalliance-1.0.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/commons-lang3-3.12.0.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/guice-5.1.0.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/jansi-2.4.0.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-artifact-3.9.4.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-builder-support-3.9.4.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-compat-3.9.4.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-core-3.9.4.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-embedder-3.9.4.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-3.9.4.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-builder-3.9.4.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-plugin-api-3.9.4.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-repository-metadata-3.9.4.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-api-1.9.14.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-connector-basic-1.9.14.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-impl-1.9.14.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-named-locks-1.9.14.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-provider-3.9.4.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-spi-1.9.14.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-transport-wagon-1.9.14.jar
+2024-06-19 11:12:01,041 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-util-1.9.14.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-3.9.4.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-builder-3.9.4.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-shared-utils-3.3.4.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okhttp-3.14.1.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okio-1.17.3.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.inject-0.3.5.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.plexus-0.3.5.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-build-api-0.0.7.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-cipher-2.0.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-classworlds-2.7.0.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-component-annotations-2.1.0.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-interpolation-1.26.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-sec-dispatcher-2.0.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-utils-3.5.1.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-file-3.5.3.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-provider-api-3.5.3.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [987])
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava_32.1.3.jre.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.9 [1139])
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/slf4j.api_2.0.9.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [38])
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.inject_1.0.0.v20220405-0441.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [995])
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.annotation_1.3.5.v20230504-0748.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [73])
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.commons.cli_1.5.0.jar
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [988])
+2024-06-19 11:12:01,042 [Worker-8: Launching projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava.failureaccess_1.0.2.jar
+2024-06-19 11:12:01,043 [Worker-8: Launching projectORS] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/raj/Desktop/TestModules/projectORS":
+2024-06-19 11:12:01,043 [Worker-8: Launching projectORS] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean package
+2024-06-19 11:12:43,524 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 11:12:43,525 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 11:12:43,531 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 11:12:43,533 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 11:12:43,533 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 11:16:49,570 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 11:16:49,573 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 11:16:49,575 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 11:16:49,576 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 11:16:49,576 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:01:10,771 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:01:10,772 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:01:10,773 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:01:10,774 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:01:10,775 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:16:21,902 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:16:21,905 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:16:21,907 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:16:21,909 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:16:21,909 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:18:17,999 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:18:18,000 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:18:18,001 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:18:18,002 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:18:18,003 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:19:18,582 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:19:18,583 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:19:18,584 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:19:18,585 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:19:18,586 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:19:43,157 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:19:43,158 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:19:43,159 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:19:43,160 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:19:43,160 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:22:23,960 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:22:23,962 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:22:23,963 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:22:23,964 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:22:23,965 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:26:04,024 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:26:04,025 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:26:04,026 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:26:04,027 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:26:04,027 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:27:38,050 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:27:38,054 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:27:38,057 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:27:38,058 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:27:38,058 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:27:50,411 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:27:50,412 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:27:50,412 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:27:50,413 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:27:50,413 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:29:03,099 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:29:03,100 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:29:03,101 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:29:03,102 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:29:03,102 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:30:02,148 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:30:02,149 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:30:02,150 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:30:02,151 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:30:02,151 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:30:08,947 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:30:08,947 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:30:08,948 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:30:08,949 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:30:08,949 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:30:31,128 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:30:31,129 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:30:31,130 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:30:31,131 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:30:31,131 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:31:35,673 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:31:35,674 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:31:35,675 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:31:35,676 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:31:35,676 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:33:55,541 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:33:55,542 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:33:55,543 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:33:55,544 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:33:55,544 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:34:53,388 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:34:53,389 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:34:53,389 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:34:53,391 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:34:53,391 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:35:09,034 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:35:09,034 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:35:09,035 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:35:09,036 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:35:09,037 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:35:20,488 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:35:20,488 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:35:20,489 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:35:20,490 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:35:20,491 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:36:33,538 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:36:33,539 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:36:33,540 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:36:33,541 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:36:33,542 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:36:53,958 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:36:53,959 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:36:53,959 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:36:53,960 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:36:53,960 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:37:38,169 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:37:38,170 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:37:38,171 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:37:38,172 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:37:38,172 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:44:05,483 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:44:05,484 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:44:05,485 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:44:05,485 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:44:05,486 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:45:18,584 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:45:18,585 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:45:18,587 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:45:18,589 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:45:18,589 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:47:09,455 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:47:09,456 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:47:09,458 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:47:09,459 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:47:09,460 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:48:42,689 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:48:42,691 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:48:42,692 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:48:42,692 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:48:42,693 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:49:15,669 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:49:15,669 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:49:15,670 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:49:15,671 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:49:15,671 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 13:50:03,450 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:50:03,451 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:50:03,451 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 13:50:03,452 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 13:50:03,452 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 14:24:55,789 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:24:55,790 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:24:55,791 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:24:55,792 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:24:55,792 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 14:36:01,827 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:36:01,828 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:36:01,829 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:36:01,829 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:36:01,830 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 14:36:48,193 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:36:48,194 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:36:48,196 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:36:48,198 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:36:48,199 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 14:37:01,893 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:37:01,893 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:37:01,894 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:37:01,894 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:37:01,894 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 14:38:21,291 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:38:21,291 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:38:21,292 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:38:21,293 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:38:21,293 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 14:47:16,431 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:47:16,432 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:47:16,433 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 14:47:16,434 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 14:47:16,434 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-19 15:30:33,220 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 15:30:33,221 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 15:30:33,221 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-19 15:30:33,223 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-19 15:30:33,223 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-20 12:24:21,458 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-20 12:24:21,460 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-20 12:24:21,461 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-20 12:24:21,463 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-20 12:24:21,464 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-20 12:24:29,613 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-06-20 12:24:42,433 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755 [619])
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aether-connector-okhttp-0.17.8.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aopalliance-1.0.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/commons-lang3-3.12.0.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/guice-5.1.0.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/jansi-2.4.0.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-artifact-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-builder-support-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-compat-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-core-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-embedder-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-builder-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-plugin-api-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-repository-metadata-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-api-1.9.14.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-connector-basic-1.9.14.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-impl-1.9.14.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-named-locks-1.9.14.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-provider-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-spi-1.9.14.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-transport-wagon-1.9.14.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-util-1.9.14.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-builder-3.9.4.jar
+2024-06-20 12:24:42,434 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-shared-utils-3.3.4.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okhttp-3.14.1.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okio-1.17.3.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.inject-0.3.5.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.plexus-0.3.5.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-build-api-0.0.7.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-cipher-2.0.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-classworlds-2.7.0.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-component-annotations-2.1.0.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-interpolation-1.26.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-sec-dispatcher-2.0.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-utils-3.5.1.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-file-3.5.3.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-provider-api-3.5.3.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [987])
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava_32.1.3.jre.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.9 [1139])
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/slf4j.api_2.0.9.jar
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [38])
+2024-06-20 12:24:42,435 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.inject_1.0.0.v20220405-0441.jar
+2024-06-20 12:24:42,436 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [995])
+2024-06-20 12:24:42,436 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.annotation_1.3.5.v20230504-0748.jar
+2024-06-20 12:24:42,436 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [73])
+2024-06-20 12:24:42,436 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.commons.cli_1.5.0.jar
+2024-06-20 12:24:42,436 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [988])
+2024-06-20 12:24:42,437 [Worker-58: Launching projectORS (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava.failureaccess_1.0.2.jar
+2024-06-20 12:24:42,437 [Worker-58: Launching projectORS (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/raj/Desktop/TestModules/projectORS":
+2024-06-20 12:24:42,437 [Worker-58: Launching projectORS (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean package
+2024-06-20 13:56:21,953 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-20 13:56:21,954 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-20 13:56:21,956 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-20 13:56:21,958 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-20 13:56:21,958 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-20 13:59:57,884 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-20 13:59:57,885 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-20 13:59:57,886 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-20 13:59:57,886 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-20 13:59:57,887 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-21 15:06:56,898 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-21 15:07:16,088 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-21 15:07:16,091 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-21 15:07:16,096 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-21 15:07:16,099 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-21 15:07:16,099 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-21 15:07:23,475 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755 [619])
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aether-connector-okhttp-0.17.8.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aopalliance-1.0.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/commons-lang3-3.12.0.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/guice-5.1.0.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/jansi-2.4.0.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-artifact-3.9.4.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-builder-support-3.9.4.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-compat-3.9.4.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-core-3.9.4.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-embedder-3.9.4.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-3.9.4.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-builder-3.9.4.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-plugin-api-3.9.4.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-repository-metadata-3.9.4.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-api-1.9.14.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-connector-basic-1.9.14.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-impl-1.9.14.jar
+2024-06-21 15:07:23,478 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-named-locks-1.9.14.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-provider-3.9.4.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-spi-1.9.14.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-transport-wagon-1.9.14.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-util-1.9.14.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-3.9.4.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-builder-3.9.4.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-shared-utils-3.3.4.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okhttp-3.14.1.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okio-1.17.3.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.inject-0.3.5.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.plexus-0.3.5.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-build-api-0.0.7.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-cipher-2.0.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-classworlds-2.7.0.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-component-annotations-2.1.0.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-interpolation-1.26.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-sec-dispatcher-2.0.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-utils-3.5.1.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-file-3.5.3.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-provider-api-3.5.3.jar
+2024-06-21 15:07:23,479 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [987])
+2024-06-21 15:07:23,480 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava_32.1.3.jre.jar
+2024-06-21 15:07:23,480 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.9 [1139])
+2024-06-21 15:07:23,480 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/slf4j.api_2.0.9.jar
+2024-06-21 15:07:23,480 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [38])
+2024-06-21 15:07:23,480 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.inject_1.0.0.v20220405-0441.jar
+2024-06-21 15:07:23,480 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [995])
+2024-06-21 15:07:23,480 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.annotation_1.3.5.v20230504-0748.jar
+2024-06-21 15:07:23,480 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [73])
+2024-06-21 15:07:23,480 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.commons.cli_1.5.0.jar
+2024-06-21 15:07:23,480 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [988])
+2024-06-21 15:07:23,480 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava.failureaccess_1.0.2.jar
+2024-06-21 15:07:23,481 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/raj/Desktop/TestModules/projectORS":
+2024-06-21 15:07:23,483 [Worker-9: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2024-06-21 15:07:36,014 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-06-21 15:07:52,079 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755 [619])
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aether-connector-okhttp-0.17.8.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aopalliance-1.0.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/commons-lang3-3.12.0.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/guice-5.1.0.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/jansi-2.4.0.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-artifact-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-builder-support-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-compat-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-core-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-embedder-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-builder-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-plugin-api-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-repository-metadata-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-api-1.9.14.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-connector-basic-1.9.14.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-impl-1.9.14.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-named-locks-1.9.14.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-provider-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-spi-1.9.14.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-transport-wagon-1.9.14.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-util-1.9.14.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-builder-3.9.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-shared-utils-3.3.4.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okhttp-3.14.1.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okio-1.17.3.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.inject-0.3.5.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.plexus-0.3.5.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-build-api-0.0.7.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-cipher-2.0.jar
+2024-06-21 15:07:52,080 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-classworlds-2.7.0.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-component-annotations-2.1.0.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-interpolation-1.26.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-sec-dispatcher-2.0.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-utils-3.5.1.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-file-3.5.3.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-provider-api-3.5.3.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [987])
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava_32.1.3.jre.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.9 [1139])
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/slf4j.api_2.0.9.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [38])
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.inject_1.0.0.v20220405-0441.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [995])
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.annotation_1.3.5.v20230504-0748.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [73])
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.commons.cli_1.5.0.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [988])
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava.failureaccess_1.0.2.jar
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/raj/Desktop/TestModules/projectORS":
+2024-06-21 15:07:52,081 [Worker-23: Launching projectORS (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean package
+2024-06-22 11:43:55,527 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunilos:springboottest:0.0.1-SNAPSHOT @ /Users/raj/Desktop/TestModules/projectORS/pom.xml.
+2024-06-22 11:43:55,838 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 11:43:55,840 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 11:43:55,845 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 11:43:55,846 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 11:43:55,846 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-22 11:44:16,954 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 11:44:16,955 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 11:44:16,956 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 11:44:16,960 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 11:44:16,960 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-22 11:44:33,563 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 11:44:33,564 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 11:44:33,565 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 11:44:33,567 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 11:44:33,567 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-22 11:44:59,579 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 11:44:59,579 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 11:44:59,580 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 11:44:59,582 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 11:44:59,582 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-22 12:31:53,194 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-22 12:33:38,864 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 12:33:38,867 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 12:33:38,873 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 12:33:38,875 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 12:33:38,875 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-22 12:35:31,254 [Worker-28: Building Project projectORS] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 12:35:31,254 [Worker-28: Building Project projectORS] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 12:35:31,255 [Worker-28: Building Project projectORS] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 12:35:31,259 [Worker-28: Building Project projectORS] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 12:35:31,260 [Worker-28: Building Project projectORS] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-22 12:36:25,923 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 12:36:25,923 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 12:36:25,924 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 12:36:25,925 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 12:36:25,925 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-22 12:36:36,098 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755 [619])
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aether-connector-okhttp-0.17.8.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/aopalliance-1.0.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/commons-lang3-3.12.0.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/guice-5.1.0.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/jansi-2.4.0.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-artifact-3.9.4.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-builder-support-3.9.4.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-compat-3.9.4.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-core-3.9.4.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-embedder-3.9.4.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-3.9.4.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-model-builder-3.9.4.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-plugin-api-3.9.4.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-repository-metadata-3.9.4.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-api-1.9.14.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-connector-basic-1.9.14.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-impl-1.9.14.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-named-locks-1.9.14.jar
+2024-06-22 12:36:36,101 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-provider-3.9.4.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-spi-1.9.14.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-transport-wagon-1.9.14.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-resolver-util-1.9.14.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-3.9.4.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-settings-builder-3.9.4.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/maven-shared-utils-3.3.4.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okhttp-3.14.1.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/okio-1.17.3.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.inject-0.3.5.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/org.eclipse.sisu.plexus-0.3.5.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-build-api-0.0.7.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-cipher-2.0.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-classworlds-2.7.0.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-component-annotations-2.1.0.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-interpolation-1.26.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-sec-dispatcher-2.0.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/plexus-utils-3.5.1.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-file-3.5.3.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755/jars/wagon-provider-api-3.5.3.jar
+2024-06-22 12:36:36,102 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.3.jre [987])
+2024-06-22 12:36:36,103 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava_32.1.3.jre.jar
+2024-06-22 12:36:36,103 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.9 [1139])
+2024-06-22 12:36:36,103 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/slf4j.api_2.0.9.jar
+2024-06-22 12:36:36,103 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [38])
+2024-06-22 12:36:36,103 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.inject_1.0.0.v20220405-0441.jar
+2024-06-22 12:36:36,103 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20230504-0748 [995])
+2024-06-22 12:36:36,103 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/javax.annotation_1.3.5.v20230504-0748.jar
+2024-06-22 12:36:36,103 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [73])
+2024-06-22 12:36:36,103 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.commons.cli_1.5.0.jar
+2024-06-22 12:36:36,103 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [988])
+2024-06-22 12:36:36,103 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /Applications/Eclipse.app/Contents/Eclipse/plugins/com.google.guava.failureaccess_1.0.2.jar
+2024-06-22 12:36:36,105 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/raj/Desktop/TestModules/projectORS":
+2024-06-22 12:36:36,105 [Worker-17: Launching Executing clean in _Users_raj_Desktop_TestModules_projectORS] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2024-06-22 12:36:44,259 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-22 12:36:44,416 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunilos:springboottest:0.0.1-SNAPSHOT @ /Users/raj/Desktop/TestModules/projectORS/pom.xml.
+2024-06-22 12:36:44,674 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /projectORS/src/main/java
+2024-06-22 12:36:44,674 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectORS/src/main/resources
+2024-06-22 12:36:44,674 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectORS/src/main/resources
+2024-06-22 12:36:44,675 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /projectORS/src/test/java
+2024-06-22 12:36:44,675 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectORS/src/test/resources
+2024-06-22 12:36:44,889 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-06-22 12:36:45,250 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 12:36:45,250 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 12:36:45,255 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-22 12:36:45,258 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-22 12:36:45,258 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-22 12:40:54,376 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-25 16:33:07,317 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-26 07:57:51,198 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-26 08:08:52,306 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:08:52,310 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:08:52,316 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:08:52,318 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:08:52,318 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:09:01,245 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:09:01,246 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:09:01,247 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:09:01,249 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:09:01,249 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:09:55,250 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:09:55,250 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:09:55,251 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:09:55,253 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:09:55,253 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:19:38,719 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:19:38,720 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:19:38,722 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:19:38,723 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:19:38,723 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:19:44,936 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:19:44,936 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:19:44,937 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:19:44,938 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:19:44,938 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:19:55,156 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:19:55,156 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:19:55,157 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:19:55,158 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:19:55,158 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:20:02,714 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:20:02,715 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:20:02,715 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:20:02,716 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:20:02,717 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:20:06,177 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:20:06,177 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:20:06,178 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:20:06,180 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:20:06,181 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:27:45,857 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:27:45,857 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:27:45,858 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:27:45,859 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:27:45,859 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:30:33,370 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:30:33,371 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:30:33,371 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:30:33,372 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:30:33,372 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:32:51,522 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:32:51,523 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:32:51,523 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:32:51,524 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:32:51,524 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:34:14,241 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:34:14,242 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:34:14,243 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:34:14,243 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:34:14,244 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:35:03,615 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:35:03,615 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:35:03,616 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:35:03,616 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:35:03,616 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:37:01,266 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:37:01,266 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:37:01,267 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:37:01,268 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:37:01,269 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:37:17,791 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:37:17,792 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:37:17,792 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:37:17,793 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:37:17,793 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:38:30,569 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:38:30,569 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:38:30,569 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:38:30,570 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:38:30,570 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:44:31,163 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:44:31,164 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:44:31,165 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:44:31,166 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:44:31,167 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:50:22,230 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:50:22,231 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:50:22,231 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:50:22,232 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:50:22,233 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:51:16,796 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:51:16,797 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:51:16,798 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:51:16,799 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:51:16,799 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:55:06,829 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:55:06,830 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:55:06,831 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:55:06,832 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:55:06,832 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 08:56:15,274 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:56:15,274 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:56:15,275 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 08:56:15,275 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 08:56:15,275 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 11:45:56,968 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 11:45:56,969 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 11:45:56,970 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 11:45:56,971 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 11:45:56,972 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 11:47:35,640 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 11:47:35,641 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 11:47:35,642 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 11:47:35,643 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 11:47:35,643 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 11:49:00,297 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 11:49:00,298 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 11:49:00,299 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 11:49:00,300 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 11:49:00,300 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 11:49:35,663 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 11:49:35,664 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 11:49:35,665 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 11:49:35,666 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 11:49:35,666 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 11:49:41,924 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 11:49:41,924 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 11:49:41,925 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-26 11:49:41,926 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 11:49:41,926 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 17:23:05,569 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-27 00:03:04,603 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-27 11:59:46,254 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-27 12:00:27,979 [Worker-16: Launching ProjectOrsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 12:00:27,981 [Worker-16: Launching ProjectOrsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-27 12:00:27,986 [Worker-16: Launching ProjectOrsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-27 12:00:27,989 [Worker-16: Launching ProjectOrsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 12:00:27,989 [Worker-16: Launching ProjectOrsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-27 13:16:30,288 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 13:16:30,289 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-27 13:16:30,290 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-27 13:16:30,317 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 13:16:30,318 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-27 13:16:42,654 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-27 13:16:42,913 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sunilos:springboottest:0.0.1-SNAPSHOT @ /Users/raj/Desktop/TestModules/projectORS/pom.xml.
+2024-06-27 13:16:43,187 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /projectORS/src/main/java
+2024-06-27 13:16:43,188 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectORS/src/main/resources
+2024-06-27 13:16:43,188 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectORS/src/main/resources
+2024-06-27 13:16:43,189 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /projectORS/src/test/java
+2024-06-27 13:16:43,189 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectORS/src/test/resources
+2024-06-27 13:16:43,442 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-06-27 13:16:43,766 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 13:16:43,767 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-27 13:16:43,772 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-27 13:16:43,775 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 13:16:43,775 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

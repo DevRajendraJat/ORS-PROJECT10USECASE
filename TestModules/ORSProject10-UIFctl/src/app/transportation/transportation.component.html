@@ -1,0 +1,117 @@
+<app-navbar></app-navbar>
+
+<style>
+  .grad {
+    background-image: linear-gradient(to bottom right, rgb(32, 168, 168), rgb(219, 231, 237));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 25px;
+  }
+
+  .background {
+    padding-top: 3%;
+    padding-bottom: 13%;
+    background: url('assets/files/wall.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .required-field {
+    color: red;
+  }
+
+  .alertRedColor {
+    color: red;
+  }
+</style>
+
+<div class="container-fluid background">
+  <div class="row justify-content-center">
+    <div class="col-sm-8 col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-body shadow-lg grad">
+          <form>
+            <h2 class="text-primary font-weight-bold">Transportation Details</h2>
+
+            <!-- Form error messages -->
+            <div *ngIf="form.error && form.message" class="alert alert-danger alert-dismissible fade show">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              {{ form.message }}
+            </div>
+            <div *ngIf="!form.error && form.message" class="alert alert-success alert-dismissible fade show">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              {{ form.message }}
+            </div>
+
+            <!-- Description field -->
+            <div class="form-group">
+              <label><b>Description</b><span class="required-field">*</span></label>
+              <input type="text" name="description" [(ngModel)]="form.data.description" class="form-control"
+                placeholder="Enter Description">
+              <span *ngIf="form.inputerror.description" class="alertRedColor">{{ form.inputerror.description }}</span>
+            </div>
+
+            <!-- Mode field -->
+            <div class="form-group">
+              <label><b>{{ 'Mode' | translate }}</b><span class="required-field">*</span></label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"><i class="fa fa-user grey-text"></i></div>
+                </div>
+                <select class="form-control" name="mode" [(ngModel)]="form.data.mode" aria-label="ngSelected">
+                  <option [ngValue]="" value="undefined">{{ 'Select Mode' | translate }}</option>
+                  <option *ngFor="let obj of form.preload.Tlist" [value]="obj.value">{{ obj.value }}</option>
+                </select>
+              </div>
+              <span *ngIf="form.inputerror.mode" class="alertRedColor">{{ form.inputerror.mode }}</span>
+            </div>
+
+            <!-- Date field -->
+
+
+            <!-- <div class="form-group">
+              <label><b>Date</b><span class="required-field">*</span></label>
+              <input type="date" name="date" [value]="form.data.date | date:'yyyy-MM-dd'" class="form-control" required>
+              <span *ngIf="form.inputerror.date" class="alertRedColor">{{ form.inputerror.date }}</span>
+            </div> -->
+
+
+            <div>
+              <span class="pt-2"><b>{{ 'Date' | translate }}</b><span class="required-field">*</span></span>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"><i class="fa fa-table grey-text"></i></div>
+                </div>
+                <input type="date" name="date" [value]="form.data.date | date:'yyyy-MM-dd'"
+                  (input)="form.data.date = parseDate($event.target.value)" class="form-control form-control-sm"
+                  required />
+              </div>
+            </div>
+            <span *ngIf="form.inputerror.date != null" class="alertRedColor" style="color: red;">
+              {{ form.inputerror.date }}
+            </span>
+
+
+            <!-- Cost field -->
+            <div class="form-group">
+              <label><b>Cost</b><span class="required-field">*</span></label>
+              <input type="text" name="cost" [(ngModel)]="form.data.cost" class="form-control"
+                placeholder="Enter Cost">
+              <span *ngIf="form.inputerror.cost" class="alertRedColor">{{ form.inputerror.cost }}</span>
+            </div>
+
+            <!-- Form buttons -->
+            <div class="form-group text-center">
+              <button (click)="submit()" [disabled]="!validate()" class="btn btn-success mr-2">Save</button>
+              <button (click)="forward('/transportationlist')" type="button" class="btn btn-warning">{{'List' | translate}}</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

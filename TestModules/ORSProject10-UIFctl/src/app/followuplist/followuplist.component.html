@@ -1,0 +1,144 @@
+<app-navbar></app-navbar>
+
+<style>
+  #nnn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .panel-heading {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-inputs {
+    margin-top: 20px;
+  }
+
+  .search-inputs .form-control,
+  .search-inputs .btn {
+    margin-bottom: 10px;
+  }
+
+  .content-wrapper {
+    background: url(assets/files/1024.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    height: 105vh;
+    padding: 20px;
+  }
+
+  .table-responsive {
+    margin-top: 20px;
+  }
+
+  .search-inputs .col-sm-2,
+  .search-inputs .col-sm-1 {
+    padding: 0 5px;
+  }
+</style>
+
+<div class="content-wrapper">
+  <div class="container-fluid">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h1 class="text-primary font-weight-bold">{{'followup List' | translate }}</h1>
+      </div>
+
+      <div class="row search-inputs p-1 justify-content-center">
+        
+        <div class="col-sm-2">
+          <input type="date" class="form-control" [(ngModel)]="form.searchParams.visitDate"
+            placeholder="{{'Search dateOfVisit' | translate}}">
+        </div>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" [(ngModel)]="form.searchParams.fees"
+            placeholder="{{'Search Fees' | translate}}" (input)="validateInput($event, 'fees')">
+          <div *ngIf="!isValidFeesInput" class="text-danger">
+            Please enter numbers only.
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <select class="form-control" name="patient" [(ngModel)]="form.searchParams.patient" aria-label="ngSelected">
+            <option [ngValue]="" value="undefined">{{'Select patient' | translate }}</option>
+            <option *ngFor="let obj of form.preload.Flist" [value]="obj.value">{{obj.value}}</option>
+          </select>
+        </div>
+        <div class="col-sm-2">
+          <select class="form-control" name="doctor" [(ngModel)]="form.searchParams.doctor" aria-label="ngSelected">
+            <option [ngValue]="" value="undefined">{{'Select Doctor' | translate }}</option>
+            <option value="Sachin">Sachin</option>
+            <option value="Naman">Naman</option>
+            <option value="Kalpesh">Kalpesh</option>
+            <option value="Nitesh">Nitesh</option>
+            <option value="Pranav">Pranav</option>
+          </select>
+        </div>
+        <div class="col-sm-1">
+          <button (click)="submit()" class="btn btn-primary">{{'Search' | translate }}</button>
+        </div>
+        <div class="col-sm-2">
+          <button (click)="forward('/followup')" type="button" class="btn btn-success">{{'Add FollowUp' |
+            translate}}</button>
+        </div>
+        <div class="col-sm-1">
+          <button (click)="deleteMany()" class="btn btn-danger">{{'Delete' | translate}}</button>
+        </div>
+      </div>
+
+      <div *ngIf="form.error" class="alert alert-danger alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        {{form.message}}
+      </div>
+      <div *ngIf="!form.error && form.message != null" class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        {{form.message}}
+      </div>
+
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover font-weight-bold text-dark">
+          <thead class="thead-dark text-uppercase">
+            <tr align="center">
+              <th><input type="checkbox" [(ngModel)]="isMasterSel" name="list_name"
+                  (change)="checkUncheckAll($event)" /></th>
+              <th>{{'S.No' | translate}}</th>
+              <th>{{'Patient' | translate}}</th>
+              <th>{{'Doctor' | translate}}</th>
+              <th>{{'visitDate' | translate}}</th>
+              <th>{{'Fees' | translate}}</th>
+              <th>{{'Edit' | translate}}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let m of form.list; let i = index" align="center">
+              <td><input type="checkbox" #checkboxes (change)="checklistUpdate()" name="list_name" [id]="m.id" /></td>
+              <td>{{(form.pageNo * 5) + i + 1}}</td>
+              <td>{{ m.patient }}</td>
+              <td>{{ m.doctor }}</td>
+              <td>{{ m.visitDate | date:'dd-MM-yyyy' }}</td>
+              <td>{{ m.fees }}</td>
+              <td>
+                <button class="fa fa-edit text-primary" id="nnn" (click)="forward('/followup/' + m.id)"></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="d-flex justify-content-between mt-3">
+          <button (click)="previous()" [disabled]="form.pageNo == 0" class="btn btn-info">{{'Previous' | translate
+            }}</button>
+          <div *ngIf="form.list.length == 0">
+            <a class="btn btn-warning mr-1" [routerLink]="['/followuplist']" (click)="exit()">{{'Back' | translate}}</a>
+          </div>
+          <button (click)="next()" [disabled]="nextList == 0" class="btn btn-info">{{'Next' | translate }}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
